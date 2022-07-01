@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">sensor_10121802</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_lokasi_makanan">Tempat Makan</string>
+    <string name="menu_lokasi_user">Lokasi User</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
+    <string name="hello_peeps">Hello peeps!</string>
+    <string name="profil_mahasiswa">Profil Mahasiswa</string>
+    <string name="tempat_makan_terdekat">Tempat Makan Terdekat</string>
+    <string name="lokasi_pengguna">Lokasi Pengguna</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="erlangga_ardiansyah">Erlangga Ardiansyah</string>
+    <string name="email">erlangga.10121802@xxx.com</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

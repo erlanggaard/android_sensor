@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:id="@+id/cap"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_cap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txt_profil_mhs"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cap"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Profil Mahasiswa"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_nama"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txt_profil_mhs"
+        app:layout_constraintStart_toEndOf="@+id/img_profil"
+        android:text="Nama : Erlangga Ardiansyah R"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_nim"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txt_nama"
+        app:layout_constraintStart_toEndOf="@+id/img_profil"
+        android:text="NIM     : 10121802"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_kls"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txt_nim"
+        app:layout_constraintStart_toEndOf="@+id/img_profil"
+        android:text="Kelas  : IF-3"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/img_profil"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="I am an enthusiastic Data Science, self-motivated, reliable, responsible and hard working person. I have the ability to process data using python, sql, and modeling using machine learning."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+
+    <ImageView
+        android:id="@+id/img_profil"
+        android:layout_marginLeft="24dp"
+        android:paddingTop="30dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/foto_profil"
+        app:layout_constraintTop_toBottomOf="@+id/txt_profil_mhs"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
